@@ -1,0 +1,115 @@
+footer::before {
+    background: url(../../public/img/footer.png) no-repeat center;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    z-index: -1;
+    top: 0;
+}
+footer{position: relative; padding-top: 120px;}
+
+.footerthumb {
+    padding-top: 100px;
+}
+
+.footerthumb ul.socialslinks {
+    margin: 0;
+    padding: 0;
+}
+
+.footerthumb ul.socialslinks li {
+    display: inline-block;
+}
+
+.footerthumb ul.socialslinks li a {height: 40px;width: 40px;display: inline-block;border-radius: 50%;background: #fff;border: #ddd 1px dashed;text-align: center;color: #000;line-height: 40px;}
+
+.footerthumb ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footerthumb .navtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footerthumb .navtitle::before, .footerthumb .navtitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: -5px;
+    height: 2px;
+    width: 100px;
+    background: #639d0d;
+}
+
+.footerthumb .navtitle::after {width: 50px;background: #000;}
+
+.footerthumb ul.navmenu li {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.footerthumb ul.navmenu li a {
+    display: inline-block;
+    color: #222;
+}
+
+.copyright {
+    border-top: #ddd 1px solid;
+    padding: 10px 0px;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.copyright ul {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-right: #ddd 1px solid;
+}
+
+.copyright ul li a {
+    color: #222;
+    padding: 0px 10px;
+    line-height: 10px;
+}
+
+.copyright ul li:last-child {
+    margin-right: 0px !important;
+    border-right: 0px;
+}
+
+.footerthumb ul.getintch li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footerthumb ul.getintch li a {
+    color: #333;
+}
+
+.footerthumb ul.getintch li a i {
+    margin-right: 10px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+.footerthumb ul.getintch li {
+    padding-left: 27px;
+    font-size: 15px;
+}

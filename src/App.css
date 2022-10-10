@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+body{font-family: 'Nunito', sans-serif !important;}
+ul{ list-style: none;}
+.primarybg{background: #639d0d !important;}
+.primarycolor{color: #639d0d !important;}
+.seciondaryfont{font-family: 'Poppins', sans-serif !important;}
+a, a:hover{text-decoration: none !important; cursor: pointer; transition: all .1s ease-in;}
+img{max-width: 100%;}

@@ -1,0 +1,523 @@
+.topbanner {
+    background: url('../../../public/img/herobackground.jpg') no-repeat bottom center;
+    background-size: cover;
+    padding: 90px 0px;
+}
+
+.aligne-item-center {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.aligne-item-center h5 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.aligne-item-center h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.aligne-item-center h1 span {
+    display: block;
+}
+
+.servicesthumbnail {
+    padding:45px  25px;
+    border: #f1f1f1 1px solid;
+    border-radius: 15px;
+    position: relative;
+    margin: 20px 0px 0px;
+    background: #fff;
+    overflow: hidden;
+}
+section.ourservices {
+    padding: 40px 0px;
+    background: url('../../../public/img/servicesbg.png') no-repeat bottom center;
+}
+.servicesthumbnail .countno {
+    font-size: 4rem;
+    position: absolute;
+    left: auto;
+    right: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #333 1px;
+    top: 0;
+    transition: all .1s ease-in;
+    z-index: 9;
+}
+
+.servicesicn img {
+    max-width: 100%;
+    width: 60px;
+    margin: 20px 0 20px 30px;
+    z-index: 9;
+}
+
+.servicesicn {
+    position: relative;
+    z-index: 9;
+}
+
+.servicesicn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background: #096bd847;
+    border-radius: 50%;
+}
+
+.servicesthumbnail p {
+    font-size: 1rem;
+    line-height: 30px;
+    z-index: 9;
+    position: relative;
+}
+.servicesthumbnail h3{font-size: 1.5rem;  z-index: 9; position: relative;}
+
+.servicesthumbnail.active {
+    background: #4c9f22;
+}
+.servicesthumbnail::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: #0aa130;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+.servicesthumbnail:hover::before {
+    transform: translateY(0);
+}
+.servicesthumbnail.active a.btn.primarybg.text-white, .servicesthumbnail:hover a.btn.primarybg.text-white {
+    background: #fff !important;
+    color: #0aa130 !important;
+    z-index: 9;
+}
+
+.servicesthumbnail.active .servicesicn::before, .servicesthumbnail:hover  .servicesicn::before{
+    background: #fff5;
+}
+
+.servicesthumbnail.active .servicesicn img, .servicesthumbnail:hover .servicesicn img{
+    filter: brightness(0.5);
+}
+
+.servicesthumbnail.active 
+ h3 a.primarycolor,  .servicesthumbnail:hover h3 a.primarycolor{
+    color: #fff !important;
+}
+
+.servicesthumbnail.active  p,  .servicesthumbnail:hover p {
+    color: #fff;
+}
+.servicesthumbnail.active .countno, .servicesthumbnail:hover .countno {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: #fff;
+}
+.aboutmajorhealth {
+    padding:30px 0px 60px;
+}
+
+.servicesthumbnail.active {
+    margin-top: -30px;
+}
+.ourservices .heading {
+    margin-bottom: 70px;
+}
+
+.aboutpic {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.aboutpic img {
+    width: 100%;
+}
+
+.aboutinfo ul {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.aboutinfo ul li {
+    position: relative;
+    margin-bottom: 20px;
+    border: #ddd 1px solid;
+    border-radius: 6px;
+}
+
+.aboutinfo ul li span {
+    position: relative;
+    left: 0;
+    background: #e7fdff;
+    width: 50px;
+    display: inline-block;
+    border-radius: 0 30px 30px 0px;
+}
+
+.aboutinfo ul li span img {
+    width: 50px;
+}
+.aboutinfo {
+    padding: 40px 40px 0 20px;
+}
+
+section.getintouch {
+    position: relative;
+    padding: 60px 0px 40px;
+}
+.aboutmajorhealthpic{position: relative;}
+.aboutmajorhealth::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    background: url(../../../public/img/angle.png) no-repeat center;
+    height:120px;
+    width:120px;
+    margin: auto;
+    left:auto;
+    right: 40px;
+    border: #fff 4px solid;
+    background-size: contain;
+  
+}
+.aboutmajorhealthpic::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    background: url(../../../public/img/greencircle.png) no-repeat center;
+    height:150px;
+    width:150px;
+    margin: auto;
+    left: -80px;
+    border: #fff 4px solid;
+    background-size: contain;
+    right: auto;
+    z-index: -1;
+}
+.servicesthumbnail a.btn span {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: #e3f0fb;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 4px;
+    color: #0aa130;
+    margin-left: 10px;
+}
+
+.servicesthumbnail a.btn {
+    position: relative;
+}
+.aboutmajorhealth::after{
+    content: "";
+    position: absolute;
+    top: auto;
+    background: url(../../../public/img/dots.png) no-repeat center;
+    height:100px;
+    width:80px;
+    margin: auto;
+    left:auto;
+    right: 40px;
+    border: #fff 4px solid;
+    background-size: contain;
+    bottom: 40px;
+}
+section.getintouch::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #e6f0fb;
+    width: 75%;
+    border-radius: 0 30px 30px 0px;
+    z-index: -1;
+}
+
+.contactmaine {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    padding:60px 30px 30px;
+}
+.contactmaine .heading {
+    margin-bottom: 30px;
+}
+
+.contactmaine .form-group {
+    margin-bottom: 30px;
+}
+
+.contactmaine textarea {
+    height: 140px;
+}
+.contactpic img {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contactpic::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    height: 100%;
+    width: 80%;
+    background: transparent;
+    border: 2px #8dd0d6 solid;
+    top: 0;
+    border-radius: 10px;
+}
+
+.contactpic {
+    position: relative;
+    padding: 20px;
+}
+.contactmaine button {
+    font-size: 20px;
+}
+
+.contactmaine::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    background: url(../../../public/img/downarrow.png) no-repeat #d80606 center;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    border: #fff 4px solid;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    background-size: contain;
+}
+.contactpic::after {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/angle.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: auto;
+    right: -80px;
+    bottom: auto;
+    z-index: -1;
+    top: -60px;
+}
+
+section.getintouch::after{content:""; position: absolute;
+    background: url(../../../public/img/greencircle.png) no-repeat  center; 
+    height:90px; width:90px;
+    background-size: contain;
+    left: auto;
+    right:80px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.testimonialsthmb {
+    padding: 20px;
+    position: relative;
+}
+
+.clientby {
+    position: relative;
+    background: #639d0d;
+    padding: 80px 40px 30px;
+    border-radius: 10px;
+    z-index: 9;
+    margin-top: 30px;
+}
+
+.clientby p {
+    color: #fff;
+}
+section{position: relative;}
+.ourtestimonails {
+    padding: 40px 0px;
+}
+
+.clientby h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.clientby h3 span {
+    font-size: 18px;
+}
+
+.quoteicon {
+    position: absolute;
+    top: -30px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.quoteicon img {
+    margin: 10px auto auto;
+    width: 40px;
+}
+
+.ourtestimonails::after{content:""; position: absolute;
+    background: url(../../../public/img/multicircle.png) no-repeat  center; 
+    height:90px; width:90px;
+    background-size: contain;
+    left: auto;
+    right:80px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.ourtestimonails::after{content:""; position: absolute;
+    background: url(../../../public/img/multicircle.png) no-repeat  center; 
+    height:90px; width:90px;
+    background-size: contain;
+    left: auto;
+    right:80px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.ourtestimonails::before {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/pluse.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: auto;
+    right: 40px;
+    top: 0px;
+    z-index: -1;
+}
+
+.aboutssbinfo {
+    padding: 130px 0px 0px 0px;
+    position: relative;
+}
+
+.aboutssbinfo::before {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/angle.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: -100px;
+    right: auto;
+    top: auto;
+    z-index: -1;
+    bottom:0px;
+}
+
+.beforefater {
+    position: relative;
+}
+.beforefater::before {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/angle.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: 00px;
+    right: auto;
+    top: 0;
+    z-index: -1;
+    bottom:0px;
+}
+
+.beforefater::after {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/circle.png) no-repeat center;
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    left: -10px;
+    right: auto;
+    top: auto;
+    z-index: -1;
+    bottom:0px;
+}
+
+.sscaboutmajorhealth {
+    padding-bottom: 40px;
+}
+
+.ssbdoc {
+    text-align: center;
+    position: relative;
+}
+
+.ssbdoc::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 20%;
+    background: #e6f0fb;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ssbdoc img {
+    position: relative;
+}
+p.bigfont {
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+p.bigfont +p {
+    line-height: 32px;
+}
