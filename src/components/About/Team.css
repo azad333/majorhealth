@@ -1,0 +1,85 @@
+.mebbers {
+    padding: 20px;
+    border: #ddd 1px solid;
+    border-radius: 10px;
+    height: 370px;
+}
+
+.teamthumbs {
+    padding: 10px;
+}
+
+.mebbers h3 {
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    margin: 0;
+}
+.mebbers h5 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.mebbers p {
+    margin: 0;
+}
+
+.ourtestimonails{padding: 40px 0  20px; position: relative;}
+
+.ourtestimonails::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    background: url(../../../public/img/angle.png) no-repeat center;
+    height:120px;
+    width:120px;
+    margin: auto;
+    left:auto;
+    right: 40px;
+    border: #fff 4px solid;
+    background-size: contain;
+  
+}
+
+.ourtestimonails::after{
+    content: "";
+    position: absolute;
+    top: auto;
+    background: url(../../../public/img/greencircle.png) no-repeat center;
+    height:150px;
+    width:150px;
+    margin: auto;
+    left: -80px;
+    border: #fff 4px solid;
+    background-size: contain;
+    right: auto;
+    z-index: -1;
+    bottom: 0px;
+  
+}
+
+section.directormessages {
+    padding: 60px 0px;
+    background: linear-gradient(0deg, #f2fdff, transparent);
+}
+
+.directorpic, .directorpic img {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.messagebydirector {
+    padding: 20px 10px;
+}
+
+.directorpic::before {
+    content: "";
+    position: absolute;
+    top: -10%;
+    height: 120%;
+    width: 100%;
+    background: transparent;
+    border: #bbf9f8 2px solid;
+    left: -40px;
+    border-radius: 10px;
+}

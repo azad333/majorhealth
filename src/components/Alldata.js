@@ -62,3 +62,34 @@ export const majorservices = [
       quoteicn:"../img/tistimonailsicon.png", 
     }
   ];
+
+  export const majorhealtteam = [
+{
+  id:1,
+  name:"Dr. Prachi Singh",
+  designation:"Physican & Consultant",
+  location:"Ex-Practice Mumbai",
+  memberimages:"../img/Prachi-Singh.jpg", 
+},
+{
+  id:2,
+  name:"Dr. Major Jitnedra Singh",
+  designation:"MBBS, MD,(MEDICINCE ) PYSICIAN",
+  location:"Ex-PRACTICE:RMO INDIAN ARMY(AMC)",
+  memberimages:"../img/Jitnedra-Singh.jpg", 
+},
+{
+  id:3,
+  name:"Dr. PRAVEEN RAJ ",
+  designation:"B.D.S D.Cod",
+  location:"",
+  memberimages:"../img/PRAVEEN-RAJ.jpg", 
+},
+{
+  id:4,
+  name:"Dr. RRAKESH KUMAR PASWAN",
+  designation:"MBBS, MD (Neurophyschiatrist)",
+  location:"",
+  memberimages:"../img/RRAKESH-KUMAR-PASWAN.jpg", 
+}
+  ];
