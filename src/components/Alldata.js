@@ -93,3 +93,183 @@ export const majorservices = [
   memberimages:"../img/RRAKESH-KUMAR-PASWAN.jpg", 
 }
   ];
+
+
+  export const pricelist = [
+    {
+      sr:1,
+      Name:"CBC (Complete Blood Count)",
+      Price:"",
+  },
+  {
+    sr:2,
+    Name:"Blood Urea",
+    Price:"",
+},
+{
+  sr:3,
+  Name:"Serum Cretinine",
+  Price:"",
+},
+{
+  sr:4,
+  Name:"SGOT",
+  Price:"",
+},
+{
+  sr:5,
+  Name:"SGPT",
+  Price:"",
+},
+{
+  sr:6,
+  Name:"Bilirubin Total",
+  Price:"",
+},
+{
+  sr:7,
+  Name:"Bilirunin Direct",
+  Price:"",
+},
+{
+  sr:8,
+  Name:"Alkaline Phosphastase",
+  Price:"",
+},
+{
+  sr:9,
+  Name:"Seerum Protein",
+  Price:"",
+},
+{
+  sr:10,
+  Name:"Bilirunin Direct",
+  Price:"",
+},
+{
+  sr:11,
+  Name:"Albumin",
+  Price:"",
+},
+{
+  sr:12,
+  Name:"	Serum Calcium",
+  Price:"",
+},
+{
+  sr:13,
+  Name:"Phosphorus",
+  Price:"",
+},
+{
+  sr:14,
+  Name:"LFT",
+  Price:"",
+},
+{
+  sr:15,
+  Name:"RFT",
+  Price:"",
+},
+{
+  sr:16,
+  Name:"Hb% (Hemoglobin)",
+  Price:"",
+},
+
+{
+  sr:17,
+  Name:"TLC (Total Leucocyte Count)",
+  Price:"",
+},
+{
+  sr:18,
+  Name:"DLC (Dirrential Leucocyte Count)",
+  Price:"",
+},
+{
+  sr:19,
+  Name:"ESR (Erythrocyte Sedimentation Rate)",
+  Price:"",
+},
+{
+  sr:20,
+  Name:"Blood Sugar (R)",
+  Price:"",
+},
+{
+  sr:21,
+  Name:"Blood Sugar (F)",
+  Price:"",
+},
+{
+  sr:22,
+  Name:"Blood Sugar (2 Hours After Meal)",
+  Price:"",
+},
+{
+  sr:23,
+  Name:"uric Acid",
+  Price:"",
+},
+{
+  sr:24,
+  Name:"Lipid Profile",
+  Price:"",
+},
+{
+  sr:25,
+  Name:"Urine RE",
+  Price:"",
+},
+{
+  sr:26,
+  Name:"HIV ( Aids Screening)",
+  Price:"",
+},
+{
+  sr:27,
+  Name:"HCV Screening",
+  Price:"",
+},
+{
+  sr:28,
+  Name:"HBsAg (Screening)",
+  Price:"",
+},
+{
+  sr:29,
+  Name:"HIV ( Aids Screening)",
+  Price:"",
+},
+{
+  sr:30,
+  Name:"MP ( Malaria Parasite)ELISA",
+  Price:"",
+},
+{
+  sr:31,
+  Name:"Widal",
+  Price:"",
+},
+{
+  sr:32,
+  Name:"Dengu Antigen",
+  Price:"",
+},
+{
+  sr:33,
+  Name:"STOOL RE",
+  Price:"",
+},
+{
+  sr:34,
+  Name:"URINE CULTURE",
+  Price:"",
+},
+{
+  sr:35,
+  Name:"THYROID PROFILE",
+  Price:"",
+}
+];

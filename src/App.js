@@ -8,6 +8,9 @@ import Chairperson from './components/About/Chairperson';
 import {BrowserRouter as Router, Routes,} from "react-router-dom";
 import Director from './components/About/Director';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import PreMedical from './components/PreMedical/PreMedical';
+import Pathlogy from './components/Pathlogy/Pathlogy';
 function App() {
   return (
     <div className="App">
@@ -15,6 +18,10 @@ function App() {
     <Header/>
 
     {/* <Home/> */}
+    <Pathlogy/>
+    <PreMedical/>
+    
+    <Contact/>
     <About/>
     <Director/>
     <Chairperson/>

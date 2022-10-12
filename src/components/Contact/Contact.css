@@ -1,0 +1,111 @@
+po {}
+
+.contectdetails {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contectdetails img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contectdetails::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:#4c9f22eb;
+    z-index: 0;
+}
+iframe{width: 100%; border: 0px; max-height: 400px; height: 400px; width: 100%; border: 0px;}
+.contectdetails .contactinfo {
+    position: relative;
+    z-index: 9;
+    padding: 20px  20px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+button[type="submit"] {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.contectdetails .contactinfo ul.contact-info {
+    margin: 0;
+    padding: 0;
+}
+
+.contectdetails .contactinfo ul.contact-info li {
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border-bottom: #ffffff57 1px solid;
+}
+
+.contectdetails .contactinfo ul.contact-info li .icon-box {
+    position: absolute;
+    left: 0;
+}
+
+.contectdetails .contactinfo ul.contact-info li a {
+    display: block;
+    color: #fff;
+}
+
+.contectdetails .contactinfo ul.contact-info li:last-child {
+    border: 0px;
+}
+.contectdetails .contactinfo h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.contectdetails .contactinfo ul.contact-info li ul.socialslinks {
+    margin: 0;
+    padding: 0;
+}
+
+.contectdetails .contactinfo ul.contact-info li ul.socialslinks li {
+    display: inline-block;
+    border: #fff 1px solid;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.contectdetails .contactinfo ul.contact-info li ul.socialslinks li a {
+    color: #4c9f22;
+}
+
+section.contactform {
+    padding: 40px 0px;
+}
+
+.contactforms {
+    box-shadow: 0 0 30px #ddd;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.contactforms .form-group {
+    margin-bottom: 30px;
+}
+
+.contactforms textarea {
+    height: 150px;
+}
+.contactforms .heading {
+    margin-bottom: 30px;
+}
