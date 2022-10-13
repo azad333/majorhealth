@@ -11,6 +11,8 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import PreMedical from './components/PreMedical/PreMedical';
 import Pathlogy from './components/Pathlogy/Pathlogy';
+import Galleryimage from './components/Gallery/Gallery';
+import Video from './components/Gallery/Video';
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
     <Header/>
 
     {/* <Home/> */}
+    <Video/>
+    <Galleryimage/>
     <Pathlogy/>
     <PreMedical/>
     

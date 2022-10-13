@@ -46,10 +46,10 @@ Hire Professional Transcriptionists </p>
              <div className='footerthumb'>
              <div className='navtitle'>Get In Touch</div>
              <ul className='getintch'>
-                <li><a href='mailto:majorkalshihealthcare@gmail.com'><i class="fa fa-envelope"></i>majorkalshihealthcare@gmail.com</a></li>
-                <li><a href='/'><i class="fa fa-map-marker"></i>25/35 Hashimpur Road
+                <li><a href='mailto:majorkalshihealthcare@gmail.com'><i className="fa fa-envelope"></i>majorkalshihealthcare@gmail.com</a></li>
+                <li><a href='/'><i className="fa fa-map-marker"></i>25/35 Hashimpur Road
 Near Royal Enfeild Show Room Prayagraj</a></li>
-                <li><a href='/'><i class="fa fa-phone"></i>(+91)-6390103030, 6390103030, 6390103030</a></li>
+                <li><a href='/'><i className="fa fa-phone"></i>(+91)-6390103030, 6390103030, 6390103030</a></li>
              </ul>
              </div>
              </div>

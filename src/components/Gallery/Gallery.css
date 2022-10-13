@@ -1,0 +1,52 @@
+.ourgallery{z-index: 99; padding-top: 50px;}
+.styles_lightroom__1X2qE{position: fixed !important;}
+
+.opens iframe {
+    max-width: 50% !important;
+    margin: auto;
+}
+
+.opens div {
+    z-index: 999;
+}
+
+.videoglry {
+    padding: 40px 0px;
+}
+.videoglry::before {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/pluse.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: auto;
+    right: 40px;
+    top: 0px;
+    z-index: -1;
+}
+
+.videoglry::after {
+    content: "";
+    position: absolute;
+    background: url(../../../public/img/multicircle.png) no-repeat center;
+    height: 90px;
+    width: 90px;
+    background-size: contain;
+    left: auto;
+    right: 80px;
+    bottom: 50px;
+    z-index: -1;
+}
+.videothumb {
+    padding: 10px;
+    border: #ddd 1px solid;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.videothumb img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}

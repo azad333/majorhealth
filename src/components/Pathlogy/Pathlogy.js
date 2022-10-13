@@ -43,7 +43,7 @@ const Pathlogy =() =>{
                             const { Name, sr, Price } = emp;
                             return (
                                 <tr>
-                                    <th scope="row" key={index.id}>{sr}</th>
+                                    <th scope="row" key={sr}>{sr}</th>
                                 
                                     <td>{Name}</td>
                                     <td>RS {Price} /--</td>
