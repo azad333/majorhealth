@@ -5,13 +5,15 @@ import Team from "./components/About/Team";
 import Mdmessage from "./components/About/Mdmessage";
 import Chairperson from "./components/About/Chairperson";
 //import Team from './components/Home/Home.js';
-import { BrowserRouter as Router, Routes } from "react-router-dom";
+//import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Director from "./components/About/Director";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import PreMedical from "./components/PreMedical/PreMedical";
 import Pathlogy from "./components/Pathlogy/Pathlogy";
 import Home from "./components/Home/Home";
+import Photogallery from "./components/Gallery/Gallery";
+import Video from "./components/Gallery/Video";
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
       <Header />
 
       <Home />
-      {/* <Video/> */}
-      {/* <Galleryimage/> */}
+    <Video/>
+
+      <Photogallery/>
       <Pathlogy />
       <PreMedical />
 
